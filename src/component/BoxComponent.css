@@ -1,0 +1,82 @@
+ .box-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    background-color: rgb(53, 52, 52);
+  }
+  
+  .box {
+    
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .box h4 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  p{
+    color: white;
+ 
+  }
+  .box-description {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .box-description.visible {
+    display: block;
+  }
+  
+  .highlight {
+    background-color: orange;
+  }
+ 
+
+
+  /* .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(53, 52, 52);
+  }
+  
+  .box {
+      flex: 0 0 300px; Adjust the width as per your requirement 
+     border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+  .box h4 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .box-description {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .box-description.visible {
+    display: block;
+  }
+  
+  .highlight {
+    background-color: orange;
+  }
+    */
